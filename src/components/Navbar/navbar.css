@@ -1,3 +1,9 @@
 .navbar {
-    width: 100% !important;
+    height: 100px!important;
+    font-size: 24px;
+}
+
+.navbar .contain-navbar-logo .navbar-logo {
+    color: white;
+    transform: rotateZ(-20deg);
 }
