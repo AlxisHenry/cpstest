@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Click-Test/static/css/main.c1980d4c.css",
+    "main.js": "/Click-Test/static/js/main.744c493c.js",
+    "index.html": "/Click-Test/index.html",
+    "main.c1980d4c.css.map": "/Click-Test/static/css/main.c1980d4c.css.map",
+    "main.744c493c.js.map": "/Click-Test/static/js/main.744c493c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1980d4c.css",
+    "static/js/main.744c493c.js"
+  ]
+}
