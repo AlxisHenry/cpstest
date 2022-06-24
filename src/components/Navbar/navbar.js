@@ -1,17 +1,19 @@
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
+import Logo from '../../assets/logo.png'
 import './navbar.css'
 
 const Navigation = () => {
     return (
-        <div>
             <Navbar
                 className={"navbar"}
-                color="light"
+                color="dark"
                 expand="md"
-                light
+                dark
             >
-                <NavbarBrand href="/">
-                    Click
+                <NavbarBrand
+                    className={"contain-navbar-logo"}
+                    href="/">
+                    <img className="navbar-logo" src={Logo} alt="" width="80px"/>
                 </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck(){}} />
                 <Collapse navbar>
@@ -25,6 +27,11 @@ const Navigation = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
+                            <NavLink href="/click">
+                                Click
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
                             <NavLink href="https://github.com/AlxisHenry/Click-Test" target="_blank">
                                 GitHub
                             </NavLink>
@@ -32,7 +39,6 @@ const Navigation = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
     )
 }
 

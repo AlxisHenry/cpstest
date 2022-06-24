@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from "react-router-dom";
 import './index.css'
-import ButtonClick from './components/Button-Click/button-click.js'
-import Navigation from "./components/Navbar/navbar";
+import App from "./App";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root')
@@ -10,7 +10,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Navigation/>
-    <ButtonClick content={"Click Here"}/>
+      <BrowserRouter>
+          <App/>
+      </BrowserRouter>
   </React.StrictMode>
 )
