@@ -1,8 +1,9 @@
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
 import Logo from '../../assets/logo.png'
 import './navbar.css'
+import {Link} from "react-router-dom";
 
-const Navigation = () => {
+export const Navigation = () => {
     return (
             <Navbar
                 className={"navbar"}
@@ -11,9 +12,10 @@ const Navigation = () => {
                 dark
             >
                 <NavbarBrand
-                    className={"contain-navbar-logo"}
-                    href="/">
-                    <img className="navbar-logo" src={Logo} alt="" width="80px"/>
+                    className={"contain-navbar-logo"}>
+                    <Link className={"link_navbar"} to={'/'}>
+                        <img className="navbar-logo" src={Logo} alt="" width="80px"/>
+                    </Link>
                 </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck(){}} />
                 <Collapse navbar>
@@ -22,13 +24,17 @@ const Navigation = () => {
                         navbar
                     >
                         <NavItem>
-                            <NavLink href="/">
-                                Home
+                            <NavLink>
+                                <Link className={"link_navbar"} to='/'>
+                                    Home
+                                </Link>
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/click">
-                                Click
+                            <NavLink>
+                                <Link className={"link_navbar"} to='/click'>
+                                    Click
+                                </Link>
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -41,6 +47,3 @@ const Navigation = () => {
             </Navbar>
     )
 }
-
-
-export default Navigation

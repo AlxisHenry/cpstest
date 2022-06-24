@@ -7,3 +7,12 @@
     color: white;
     transform: rotateZ(-20deg);
 }
+
+.link_navbar {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link_navbar:hover {
+    color: inherit;
+}
