@@ -1,7 +1,6 @@
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route, Routes} from "react-router-dom";
 import React from 'react'
-
 import {Navigation} from "./Navbar/navbar"
 import {Homepage} from "./Home";
 import {ClickTest} from "./Click";

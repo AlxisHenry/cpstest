@@ -1,9 +1,12 @@
 import ButtonClick from "./Button-Click/button-click";
+import React from "react";
 
-export const ClickTest = () => {
-    return (
-        <>
-            <ButtonClick content={"Click Here"}/>
-        </>
-    );
+export class ClickTest extends React.Component {
+    render() {
+        return (
+            <>
+                <ButtonClick content={"Click Here"}/>
+            </>
+        )
+    }
 }
