@@ -24,7 +24,6 @@ export class Navigation extends React.Component {
         return (
             <div>
                 <Navbar
-                    className={"navbar"}
                     expand="lg"
                     dark
                 >

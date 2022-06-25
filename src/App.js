@@ -1,9 +1,9 @@
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route, Routes} from "react-router-dom";
 import React from 'react'
-import {Navigation} from "./Navbar/navbar"
-import {Homepage} from "./Home";
-import {ClickTest} from "./Click";
+import {Navigation} from "./components/Navbar/navbar"
+import {Homepage} from "./views/Home";
+import {ClickTest} from "./views/Click";
 
 class App extends React.Component {
     render() {
