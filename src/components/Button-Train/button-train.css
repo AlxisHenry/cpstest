@@ -21,7 +21,7 @@
 
 .link-to-train:hover {
     background-color: #5357ab;
-    transform: translateY(-8px);
+    transform: translateY(-4px);
 }
 .link-to-train:active {
     transform: scale(0.98);
