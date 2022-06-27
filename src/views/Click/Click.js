@@ -1,4 +1,4 @@
-import ButtonClick from "../components/Button-Click/button-click";
+import ButtonClick from "../../components/Button-Click/button-click";
 import React from "react";
 
 export class ClickTest extends React.Component {

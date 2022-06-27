@@ -1,0 +1,34 @@
+.link-to-train {
+    transition: All 500ms ease-in;
+    transform: translateX(0px);
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #464AA6;
+}
+
+.contain-train-button {
+    text-transform: uppercase;
+    color: #F2F2F2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4rem;
+}
+
+.link-to-train:hover {
+    background-color: #5357ab;
+    transform: translateY(-8px);
+}
+.link-to-train:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.1); }
+
+@media screen and (max-width: 600px) {
+    .contain-train-button {
+        font-size: 2.8rem!important;
+    }
+}
