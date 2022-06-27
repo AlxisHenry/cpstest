@@ -9,9 +9,9 @@ class App extends React.Component {
     render() {
         return (
             <Router basename="/Click-Test">
-                <Navigation />
+                <Navigation status={true}/>
                 <Routes>
-                    <Route path='/' element={ <Homepage /> } />
+                    <Route path='/' element={ <Homepage/> } />
                     <Route path='/click' element={ <ClickTest /> } />
                 </Routes>
             </Router>

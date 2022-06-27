@@ -8,4 +8,3 @@ ReactDOM.createRoot(
 ).render(
      <App/>
 )
-//basename={process.env.PUBLIC_URL}
