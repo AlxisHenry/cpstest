@@ -7,7 +7,7 @@ export class Homepage extends React.Component{
     render() {
         return (
             <>
-                <section>
+                <section className={"homepage-content"}>
                     <div className={"home-section"}>
                         <span className={"home-span"}>
                             Welcome

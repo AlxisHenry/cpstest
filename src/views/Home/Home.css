@@ -1,4 +1,4 @@
-section {
+.homepage-content {
     margin-top: -55px;
     width: 100%;
     min-height: 850px;
@@ -6,7 +6,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .home-section {
