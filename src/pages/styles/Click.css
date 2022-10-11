@@ -1,13 +1,9 @@
 .click-page-content {
-    margin-top: -55px;
+    margin-top: 20px;
     width: 100%;
     min-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 900px) {
-
 }
