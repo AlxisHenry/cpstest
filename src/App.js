@@ -1,15 +1,29 @@
-import {BrowserRouter as Router} from "react-router-dom";
-import {Route, Routes} from "react-router-dom";
+/**
+ * React
+ */
 import React from 'react'
-import {Navigation} from "./components/Navbar/navbar"
-import {Homepage} from "./views/Home/Home";
-import {ClickTest} from "./views/Click/Click";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
-class App extends React.Component {
+/**
+ * Components
+ */
+import Navbar from "./components/Navbar"
+
+/**
+ * Pages
+ */
+import Homepage from "./pages/Homepage";
+import ClickTest from "./pages/ClickTest";
+
+/**
+ * Router
+ */
+export default class App extends React.Component {
     render() {
         return (
             <Router basename="/cpstest">
-                <Navigation status={true}/>
+                <Navbar status={true}/>
                 <Routes>
                     <Route path='/' element={ <Homepage/> } />
                     <Route path='/click' element={ <ClickTest /> } />
@@ -18,5 +32,3 @@ class App extends React.Component {
         )
     }
 }
-
-export default App

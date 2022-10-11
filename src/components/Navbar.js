@@ -1,9 +1,19 @@
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
-import AsssetLogo from '../../assets/logo.png'
-import {Link} from "react-router-dom";
+/**
+ * React
+ */
+import { Navbar as ReactNavbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
+import { Link } from "react-router-dom";
 import React from "react";
 
-export class Navigation extends React.Component {
+/**
+ * Assets
+ */
+import AppLogo from '../assets/logo.png'
+
+/**
+ * Component : Navbar
+ */
+export default class Navbar extends React.Component {
 
     constructor(props) {
         super(props);
@@ -38,7 +48,7 @@ export class Navigation extends React.Component {
         }
         return (
             <div>
-                <Navbar
+                <ReactNavbar
                     expand="lg"
                     dark
                     style={Navbar_Css}
@@ -46,7 +56,7 @@ export class Navigation extends React.Component {
                     <NavbarBrand tag="span"
                                  className={"contain-navbar-logo"}>
                         <Link className={"link_navbar"} to={'/'} style={Links_Css}>
-                            <img className="navbar-logo" src={AsssetLogo} style={Logo_Css} alt="" width="80px"/>
+                            <img className="navbar-logo" src={AppLogo} style={Logo_Css} alt="" width="80px"/>
                         </Link>
                     </NavbarBrand>
                     <NavbarToggler
@@ -74,7 +84,7 @@ export class Navigation extends React.Component {
                             </NavItem>
                         </Nav>
                     </Collapse>
-                </Navbar>
+                </ReactNavbar>
             </div>
         )
     }

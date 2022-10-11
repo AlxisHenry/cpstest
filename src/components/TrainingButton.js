@@ -1,8 +1,18 @@
+/**
+ * React
+ */
 import React from "react";
-import "./button-train.css"
 import {Link} from "react-router-dom";
 
-export class ButtonTrain extends React.Component{
+/**
+ * Css
+ */
+import "./styles/TrainingButton.css"
+
+/**
+ * Component : TrainingButton
+ */
+export default class TrainingButton extends React.Component{
     render() {
         return (
             <>
