@@ -68,13 +68,6 @@ export class Navigation extends React.Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag="span">
-                                    <Link className={"link_navbar"} style={Links_Css} to='/click'>
-                                        Click
-                                    </Link>
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
                                 <NavLink href="https://github.com/AlxisHenry/Click-Test" target="_blank">
                                     GitHub
                                 </NavLink>

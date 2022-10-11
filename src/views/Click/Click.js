@@ -6,7 +6,9 @@ export class ClickTest extends React.Component {
     render() {
         return (
             <section className={"click-page-content"}>
-                <ButtonClick content={"Click Here For Start"}/>
+                <ButtonClick content={"It's your turn, click on me !"}/>
+                {/* Info sur le tour */}
+                {/* Après 10s affichage du résultat et  */}
             </section>
         )
     }
