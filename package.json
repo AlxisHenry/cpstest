@@ -1,7 +1,7 @@
 {
-  "name": "click-test",
+  "name": "cpstest",
   "version": "0.1.0",
-  "homepage": "https://alxishenry.github.io/Click-Test",
+  "homepage": "https://alxishenry.github.io/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
