@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Click-Test/static/css/main.276607c9.css",
-    "main.js": "/Click-Test/static/js/main.168f6c18.js",
-    "index.html": "/Click-Test/index.html",
-    "main.276607c9.css.map": "/Click-Test/static/css/main.276607c9.css.map",
-    "main.168f6c18.js.map": "/Click-Test/static/js/main.168f6c18.js.map"
+    "main.css": "/static/css/main.276607c9.css",
+    "main.js": "/static/js/main.168f6c18.js",
+    "index.html": "/index.html",
+    "main.276607c9.css.map": "/static/css/main.276607c9.css.map",
+    "main.168f6c18.js.map": "/static/js/main.168f6c18.js.map"
   },
   "entrypoints": [
     "static/css/main.276607c9.css",
