@@ -8,7 +8,7 @@ import {ClickTest} from "./views/Click/Click";
 class App extends React.Component {
     render() {
         return (
-            <Router basename="/">
+            <Router basename="/cpstest">
                 <Navigation status={true}/>
                 <Routes>
                     <Route path='/' element={ <Homepage/> } />
